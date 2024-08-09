@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Four card feature section]()
-- Live Site URL: [Four card feature section Live]()
+- Solution URL: [Four card feature section](https://github.com/Shoaib-Bin-Rashid/Four-card-feature-section)
+- Live Site URL: [Four card feature section Live](https://shoaib-bin-rashid.github.io/Four-card-feature-section/)
 
 ## My process
 
