@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 15.4px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 86px 32px;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.titledata {
+  font-weight: 300;
+  color: hsl(0, 0%, 44%);
+  font-size: 24.5px;
+}
+
+h2 {
+  color: #000000b5;
+}
+
+.bio {
+  padding: 15px 0px 80px;
+  text-align: center;
+  font-weight: 500;
+  color: hsl(0, 0%, 65%);
+  line-height: 24px;
+}
+
+.carddeck {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.cards {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 6px;
+  padding: 24px;
+  box-shadow: 0 1rem 1rem -0.5rem #9eb6b778;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardtitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.details {
+  padding: 5px 0px;
+  color: hsl(0, 0%, 71%);
+  font-weight: 500;
+  font-size: 12.4px;
+  line-height: 24px;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+  margin-top: 28px;
+  align-self: flex-end;
+}
+
+.card1 {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.card2 {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.card3 {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.card4 {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  gap: 0px;
+}
+
+@media screen and (min-width: 900px) {
+  .cards {
+    width: 24vw;
+    padding: 32px;
+    min-width: 260px;
+  }
+
+  .titledata {
+    font-size: 35.4px;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .bio {
+    padding: 15px 0px 60px;
+    width: 550px;
+  }
+
+  .carddeck {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .icon {
+    height: auto;
+    width: auto;
+    margin-top: 32px;
+  }
+}
